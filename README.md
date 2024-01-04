@@ -1,5 +1,5 @@
-Nombre:
+Nombre: Alejandro Gabriel Mallcu Calani
 
-Materia:
+Materia: inf122
 
-color favorito: 
+color favorito: #222222
