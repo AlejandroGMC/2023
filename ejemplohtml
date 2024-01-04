@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css">
 </head>
 <body>
     <h1>Ejemplo de pagina</h1>
     <h2>estos es form</h2>
-    <form action="">
-        <div>
+    <form></form>
+        <div></div>
         <label for="text">Nombre:</label>
         <input type="text" name"text" id="name">
         </div>
-    </form>
+    
     <form action="">
         <label for="text">Apeliido:</label>
         <input type="text" name"text" id="name">
