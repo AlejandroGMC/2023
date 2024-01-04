@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Ejemplo de pagina</h1>
+    <h2>estos es form</h2>
+    <form action="">
+        <div>
+        <label for="text">Nombre:</label>
+        <input type="text" name"text" id="name">
+        </div>
+    </form>
+    <form action="">
+        <label for="text">Apeliido:</label>
+        <input type="text" name"text" id="name">
+    </form>
+    <form action="">
+        <label for="text">Email:</label>
+        <input type="text" name"text" id="name">
+    </form>
+    <input type="submit" value="Registrar" class="">
+    <input type="submit" value="Iniciar session" class="">
+    
+    
+    
+</body>
+</html>
