@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Nunito:wght@300;400;500;700&family=Roboto:wght@500;700;900&display=swap"
+    rel="stylesheet">
+    <title>Scaffolding</title>
+    <style>
+        :root {
+            --white: #FFFFFF;
+            --black: #2B2E34;
+            --purple: #6F2CFF;
+            --light-purple: #EFE9F9;
+            --red-heart: ##A50954;
+            --blue-heart: #ACD9B2;
+            --sm: 14px;
+            --md: 20px;
+            --lg: 60px;
+            
+        }
+
+        body {
+            font-family: 'Nunito';
+            margin: 0;
+            background-color: var(--black);
+        }
+
+        .main {
+            width: 100%;
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: var(--black);
+        }
+
+        .brochure {
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+            width: 100%;
+            justify-items: center;
+            background-color: var(--black);
+        }
+
+        .more-info {
+            display: grid;
+            background-color: var(--white);
+            width: 100%;
+        }
+
+        .title {
+            color: #FFF;
+            text-align: center;
+            font-family: Nunito;
+            font-size: 42px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+        .subtitle {
+            color: #AFC0E2;
+    text-align: center;
+    font-family: Nunito;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;   
+    line-height: normal;
+        }
+
+        .primary-button {
+            background-color: var(--purple);
+            color: var(--white);
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: var(--md);
+            cursor: pointer;
+            margin: 100px 0 100px 0;
+        }
+
+        .icons-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 50px 260px 50px 260px;
+            justify-content: center;
+        }
+
+        .card-container {
+            display: flex;
+            align-items: center;
+            margin: 16px 0 16px 0;
+        }
+
+        .card-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: var(--white);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 28px;
+        }
+
+        .card-icon figure img {
+            width: 50px;
+            height: 50px;
+        }
+
+        .icon-text h2 {
+            font-size: var(--sm);
+            margin: 0;
+        }
+
+        .icon-text p {
+            font-size: var(--sm);
+            margin: 0;
+        }
+
+        @media (max-width: 720px) {
+            .icons-container {
+                grid-template-columns: repeat(1, 1fr);
+                margin: 50px 10px 50px 10px; } }
+                .contenedor {
+                    width: 90%;
+                    max-width: 1200px;
+                    margin: auto;
+                    padding: 40px 0;
+                
+                    
+                }
+                .card {
+                    border-radius: 10px;
+                    min-height: 200px;
+                    font-weight: bold;
+                    padding: 20px;
+                    position: relative;
+                    overflow: hidden;
+                    background-size: cover;
+                    background-position: center center;
+                
+                    
+                }
+                .card .textos {
+                    height: 100%; }
+                    @media screen and (max-width: 900px) {
+	
+                    }
+                    
+                    @media screen and (max-width: 700px) {
+                        
+                    }
+                    
+                    @media screen and (max-width: 600px) {
+                    
+                    }
+        
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="brochure">
+            <h1 class="title">Scaffolding a New Company</h1>
+            <p class="subtitle">Join us with the lastest blockchain innovations</p>
+        </div>
+        <div class="parent">
+            <span class="child">Hello World</span>
+        </div>
+        <div class="contenedor">
+        </div>
+        <div class="contenedor-conciertos">
+			<div class="card" style="background-image: url('./img/1.jpg')">
+				<div class="textos">
+					<h3>Rock In Rio</h3>
+					<p>27 de Octubre 2021</p>
+				</div>
+			</div>
+			<div class="card" style="background-image: url('./img/2.jpg')">
+				<div class="textos">
+					<h3>FalconMasters’ Concert</h3>
+					<p>12 de Noviembre 2021</p>
+				</div>
+			</div>
+			<div class="card" style="background-image: url('./img/3.jpg')">
+				<div class="textos">
+					<h3>Coachella</h3>
+					<p>13 de Diciembre 2021</p>
+				</div>
+			</div>
+</body>
+</html>
