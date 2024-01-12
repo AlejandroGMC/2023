@@ -1,24 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Evento from './components/evento.js'
+import EventoB from './components/evento.js'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+        <Evento />
+        <EventoB title="Py Pizza 03 - PyPuzzle"
+        image="evento1"
+        date="">
+          </EventoB>     
+      </div>
   );
 }
 
