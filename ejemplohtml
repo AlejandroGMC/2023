@@ -10,9 +10,7 @@
     <h1>Ejemplo de pagina</h1>
     <h2>estos es form</h2>
     <form></form>
-        <div></div>
-        <label for="text">Nombre:</label>
-        <input type="text" name"text" id="name">
+      
         </div>
     
     <form action="">
