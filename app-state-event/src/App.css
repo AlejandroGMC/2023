@@ -22,8 +22,17 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .contendedor-botones {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+
+}
+
+.contendedor-botones-numeros {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  width: 20%;
+  align-items: center;
 }
